@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Holographic</title>
+		<link rel="stylesheet" href="./style.css" />
+		<style>
+			#textInputContainer {
+				position: absolute;
+				top: 20px;
+				left: 20px;
+				z-index: 100;
+				font-family: "monospace", sans-serif;
+			}
+
+			#textInput {
+				background-color: rgba(29, 31, 42, 0.9);
+				color: #00ff00;
+				border: none !important;
+				outline: none !important;
+				border-bottom: 2px solid #00ff00 !important;
+				padding: 10px 15px;
+				font-size: 16px;
+				width: 200px;
+				transition: all 0.3s ease;
+				outline: none;
+				font-family: "monospace", sans-serif;
+			}
+
+			#textInput:focus {
+				box-shadow: 0 0 10px #00ff00;
+				background-color: rgba(29, 31, 42, 0.9);
+			}
+
+			#textInput::placeholder {
+				color: rgba(0, 255, 0, 0.5);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="textInputContainer">
+			<input
+				type="text"
+				id="textInput"
+				value=""
+				placeholder="Change This Text..."
+			/>
+		</div>
+
+		<canvas class="webgl"></canvas>
+		<script type="module" src="./script.js"></script>
+	</body>
+</html>
