@@ -1,16 +1,23 @@
-# Three.js Journey
+# 🚀 Three.js Journey - Glitch Edition 🎉
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+Welcome to the **craziest** 3D text adventure! 🌀 Buckle up for glitches, shaders, and more! 🤯
 
-``` bash
-# Install dependencies (only the first time)
+## 🔧 Setup Instructions
+
+1. Download [🍏 Node.js](https://nodejs.org/en/download/).
+2. Run the following commands in your terminal 🖥️:
+
+```bash
+# Install dependencies (first time only) 🛠️
 npm install
 
-# Run the local server at localhost:8080
 npm run dev
 
-# Build for production in the dist/ directory
 npm run build
 ```
+
+# 🌍 Live:
+
+## Check out the glitchy madness here 👉 [Live Project 🎮](https://glitch-text-threejs.vercel.app/)
+
+### Happy glitching! 😜👾
